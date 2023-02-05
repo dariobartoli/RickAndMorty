@@ -1,0 +1,102 @@
+.mainDetails{
+    background-color: rgb(56, 56, 56);
+    display: flex;
+    justify-content: center;
+    min-height: 92vh;
+}
+
+.mainDetailsC{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    background-color: rgb(77, 77, 77);
+    padding-top: 2rem;
+    gap: 3rem;
+}
+
+.tituloDetails{
+    color: rgb(233, 233, 233);
+    font-size: 2.5rem;
+}
+
+.imageDetails{
+    width: 90%;
+    max-width: 350px;
+    border-radius: 1rem;
+    box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.75);
+
+}
+
+.infoDetails{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+    color: rgb(233, 233, 233);
+    border: white 1.5px solid;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    width: 90%;
+    max-width: 650px;
+}
+
+.textoDetails{
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+}
+
+.title{
+    font-size: 1.4rem;
+    color: rgb(168, 168, 168);
+}
+
+.table{
+    border-radius: 1rem;
+    border-collapse: collapse;
+    background-color: rgb(175, 175, 175);
+    width: 80%;
+    max-width: 600px;
+}
+.thead{
+    color: rgb(53, 53, 53);
+    background-color: rgb(145, 145, 145);
+    border-radius: 1rem 1rem 0 0;
+    padding: 0.5rem 0;
+}
+.td{
+    text-align: center;
+    border-top: 1px black solid;
+    padding: 0.1rem 0;
+}
+.td:hover{
+    background-color: rgb(156, 156, 156);
+}
+
+.buttonD{
+    padding: 0.5rem;
+    background-color: rgb(72, 72, 255);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    width: 100px;
+    margin-bottom: 2rem;
+}
+
+.buttonD:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(72, 72, 255);
+    border: 1px solid rgb(72, 72, 255);
+    transition: 0.8s;
+}
+
+
+@media screen and (min-width:620px) {
+    .infoDetails{
+        flex-direction: row;
+    }
+    
+}

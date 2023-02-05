@@ -1,0 +1,41 @@
+.mainC{
+    background-color: rgb(56, 56, 56);
+    display: flex;
+    justify-content: center;
+    min-height: 63.1vh;
+}
+.mainContainerC{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    background-color: rgb(77, 77, 77);
+    padding-top: 2rem;
+    gap: 2rem;
+    padding-bottom: 2rem;
+    
+}
+
+.tituloCharacter{
+    color: rgb(228, 227, 227);
+    font-size: 3rem;
+}
+
+.checkContainer{
+    display: flex;
+    gap: 1.2rem;
+}
+
+.checkLabel{
+    color: white;
+    font-weight: 400;
+}
+
+.checkLabel{
+    padding-left: 0.2rem;
+}
+.inputCheck:checked + .checkLabel{
+    color: rgb(26, 26, 26);
+    font-weight: bold;
+    transition: 0.3s;
+}

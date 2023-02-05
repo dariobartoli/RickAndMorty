@@ -1,0 +1,11 @@
+.header{
+    background-color: rgb(131, 131, 131);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tituloImg{
+    width: 90%;
+    max-width: 600px;
+}

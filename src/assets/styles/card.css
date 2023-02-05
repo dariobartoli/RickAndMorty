@@ -1,0 +1,76 @@
+.cardContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.card{
+    margin-top: 1rem;
+    border: 1px rgb(138, 138, 138) solid;
+    border-radius: 0.5rem;
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0.5rem;
+    gap: 1.5rem;
+    background-color: rgb(185, 185, 185);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.card:hover{
+    scale: 1.1;
+    transform: rotate(-1deg);
+    transition: 0.5s;
+}
+
+.imageCard{
+    border-radius: 50%;
+    width: 200px;
+    align-self: center;
+}
+
+.botones{
+    padding-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+.buttonDetails{
+    padding: 0.5rem;
+    background-color: rgb(72, 72, 255);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    width: 92%;
+}
+
+.buttonDetails:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(72, 72, 255);
+    border: 1px solid rgb(72, 72, 255);
+    transition: 0.8s;
+}
+
+.buttonDelete{
+    padding: 0.5rem;
+    background-color: rgb(255, 72, 72);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    width: 92%;
+}
+
+.buttonDelete:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 72, 72);
+    border: 1px solid rgb(255, 72, 72);
+    transition: 0.8s;
+}
+
+.cardText{
+    padding-left: 1rem;
+}
