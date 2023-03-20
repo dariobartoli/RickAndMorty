@@ -10,7 +10,6 @@ export const NavBar = () => {
         <nav className="navBar">
           <NavLink to={"/"} className="ancor" activeclassname="active">Home</NavLink>
           <NavLink to={"/characters"} className="ancor">Characters</NavLink>
-          <NavLink to={"/gallery"} className="ancor">Gallery</NavLink>
         </nav>
         <div></div>
       </div>

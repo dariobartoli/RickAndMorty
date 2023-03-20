@@ -52,7 +52,6 @@ function App() {
         <Route exact path="/" element={<Index/>}></Route>
         <Route path="/characters" element={<Characters data={data} deleteCard={deleteCard} createCard={createCard} check={check}/>}></Route>
         <Route path="/characters/:id" element={<Details data={data}/>}></Route>
-        <Route path='/gallery' element={<Gallery/>}></Route>
       </Routes>
     </BrowserRouter>
     
